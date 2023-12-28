@@ -1,3 +1,3 @@
-module github.com/chrede88/qubt
+module github.com/trozz/qubt
 
 go 1.21.5
