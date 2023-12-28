@@ -1,4 +1,5 @@
 {{ define "main" }}
+<canvas id="smoke-mouse">
   <div class="flex flex-col justify-center items-center mt-24 md:mt-48 mb-2">
     {{/* Add image and site title */}}
     {{ $image := resources.GetMatch .Site.Params.Author.image }}
@@ -53,4 +54,5 @@
       {{ end }}
     </div>
   </div>
+</canvas>
 {{ end }}
